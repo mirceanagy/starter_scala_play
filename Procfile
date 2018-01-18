@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/provisioning -Dhttp.port=$PORT -J-server -J-XX:+HeapDumpOnOutOfMemoryError -J-XX:HeapDumpPath=/tmp/java.hprof  -J-XX:OnOutOfMemoryError=target/universal/stage/conf/uploadThreadDumpToS3
